@@ -1,22 +1,15 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Testing Workflow Variables
-
-# Controls when the workflow will run
 on:
   workflow_dispatch:
-
 env:
   cloud: "google_cloud"
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   greeting_job:
     runs-on: ubuntu-latest
     env:
       Greeting: "Hello"
     steps:
-      - name: "Say Hello its Monday"
-        run: "$First_name is using $cloud"
-        env:
-          First_name: "VG"
+    - name: "Say Hello it's Monday"
+      run: echo "$First_name is using $cloud"
+      env:
+        First_name: "VG"
