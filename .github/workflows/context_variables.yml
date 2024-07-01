@@ -1,4 +1,4 @@
-name: Config Variables
+name: Context Variables
 on:
   workflow_dispatch:
 env:
