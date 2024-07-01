@@ -1,16 +1,16 @@
 name: Input Variables
 on:
   workflow_dispatch:
-  #inputs the workflow accepts
-  inputs:
-    number1:
-      description: "first number"
-      default: 0
-      required: true
-    number2:
-      description: "second number"
-      default: 0
-      required: true   
+    #inputs the workflow accepts
+    inputs:
+      number1:
+        description: "first number"
+        default: 0
+        required: true
+      number2:
+        description: "second number"
+        default: 0
+        required: true   
 jobs:
   add_numbers:
     runs-on: ubuntu-latest
