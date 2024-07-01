@@ -16,7 +16,7 @@ jobs:
     env:
       Greeting: "Hello"
     steps:
-      - name: "Say Hello it's Monday"
+      - name: "Say Hello its Monday"
         run: "$First_name is using $cloud"
         env:
           First_name: "VG"
