@@ -10,6 +10,6 @@ jobs:
       Greeting: Hello
     steps:
     - name: "Say Hello it's Monday"
-      run: echo "$First_name is using $cloud"
+      run: echo "$Greeting, $First_name is using $cloud"
       env:
         First_name: VG
